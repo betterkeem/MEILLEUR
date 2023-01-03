@@ -157,12 +157,14 @@ iframe {
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 50;
+    display: none;
     /*팝업창 모양이 완벽히 끝나고 나면 display:none속성으로 처음에 안보이게까지만 css로 설정한다.*/
 }
 
 .close {
     position: absolute;
     bottom: 4px;
+
 
 }
 
@@ -261,6 +263,7 @@ iframe {
     font-size: 18px;
     font-family: 'SpoqaHanSansNeo-Regular';
     font-weight: bold;
+    width: 350px;
 }
 
 #num {
